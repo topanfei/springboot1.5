@@ -1,0 +1,5 @@
+该示例是SpringBoot两种方式整合Listener
+
+方式1：通过@WebListener注解整合Listener。必须在启动类App中添加@ServletComponentScan注解扫描自定义的listener对象
+
+方式2：通过@Bean在启动类App2中注入自定义的listener对象
