@@ -1,0 +1,6 @@
+springBoot整合Servlet的示例
+方式1：通过使用@WebServlet注解方式整合servlet
+     需要在启动类App中添加@ServletComponentScan 注解去扫描创建的servlet
+     
+方式2：通过注入方法的方式整合servlet
+     需要在启动类App2中通过@Bean注入自定义的Servlet对象和访问url
