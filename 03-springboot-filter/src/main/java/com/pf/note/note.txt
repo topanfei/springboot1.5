@@ -1,0 +1,5 @@
+该示例SpringBoot两种方式整合Filter
+
+方式1：通过@WebFilter注解整合Filter。需要在启动类App中添加@ServletComponentScan注解扫描过滤器和servlet对象
+
+方式2：在启动类中通过@Bean注入自定义的filter对象来整合Filter。如App2启动类
